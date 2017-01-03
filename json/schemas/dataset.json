@@ -1,0 +1,14 @@
+{
+	"request": {
+		"table": {
+			"type": "String",
+			"description": "dataset_name",
+			"example": ""
+		},
+		"transformation": "type_of_transformation",
+		"messages": "on or off",
+		"filter": {
+			"filtertype": "filtervalue"
+		}
+	}
+}
