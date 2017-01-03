@@ -1,3 +1,5 @@
+~~~~
+
 %OptionCenter=(
 	'site'=> {
 		'cookies'=>{
@@ -90,8 +92,7 @@
 			}
 		},
 		#bit ugly but is being used like this (please use ConnectGenomeDB in stead)
-		'dbh_'.genomebuild=>{
-			
+		'dbh_'.genomebuild=>{			
 		},
 		'platforms'=>{#DataSetter
 			#each table / chiptype
@@ -200,7 +201,4 @@
 	},
 );
 
-
-
-
-
+~~~~
