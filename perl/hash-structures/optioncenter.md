@@ -1,4 +1,6 @@
-~~~~
+The optioncenter is a hash that keeps track at the server side of all options chosen in previous forms and gathered from the settings file and the settings in the database.
+
+```
 
 %OptionCenter=(
 	'site'=> {
@@ -201,4 +203,4 @@
 	},
 );
 
-~~~~
+```
