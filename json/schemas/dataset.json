@@ -1,14 +1,40 @@
 {
-	"request": {
-		"table": {
-			"type": "String",
-			"description": "dataset_name",
-			"example": ""
-		},
-		"transformation": "type_of_transformation",
-		"messages": "on or off",
-		"filter": {
-			"filtertype": "filtervalue"
-		}
-	}
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "request": {
+      "type": "object",
+      "properties": {
+        "table": {
+          "type": "string"
+        },
+        "transformation": {
+          "type": "string"
+        },
+        "messages": {
+          "type": "string"
+        },
+        "filter": {
+          "type": "object",
+          "properties": {
+            "filtertype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "filtertype"
+          ]
+        }
+      },
+      "required": [
+        "table",
+        "transformation",
+        "messages",
+        "filter"
+      ]
+    }
+  },
+  "required": [
+    "request"
+  ]
 }
